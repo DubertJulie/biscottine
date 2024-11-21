@@ -21,3 +21,23 @@ export default function RecipeResults() {
         </>
     );
 }
+
+
+// export default function RecipeResults() {
+//     return (
+//         <>
+//         <div className="RecipeResults">
+//             <div className="RecipeResults-card">
+
+//                 <img src={props.image} className="RecipeResults-card-img"/> 
+
+//                 <div className="RecipeResults-card-info">
+//                     <div className="RecipeResults-card-title">{props.title}</div>
+//                     <div className="RecipeResults-card-preparation">{props.preparation}</div>
+//                 </div>
+
+//             </div>
+//         </div>
+//         </>
+//     );
+// }

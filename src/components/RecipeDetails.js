@@ -9,8 +9,15 @@ export default function RecipeDetails() {
         <div className="RecipeDetails">
             <img src={recipe} />
             <h1>Titre de la recette</h1>
-            <p className="RecipeDetails-tags">Cuisine orientale</p>
-            <div className="RecipeDetails-ingredients">Ail</div>       
+            <div className="RecipeDetails-tags">
+                <div className="RecipeDetails-tag" id="japonaise">Cuisine japonaise</div>
+                <div className="RecipeDetails-tag" id="min">30 minutes</div>
+
+            </div>
+
+            <div className="RecipeDetails-ingredients">
+                <div className="RecipeDetails-ingredient">Ail</div>
+            </div>       
 
             <h2>Préparation</h2>
             <div className="RecipeDetails-steps">
