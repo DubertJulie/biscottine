@@ -1,0 +1,122 @@
+[
+    {
+      "title": "Pâtes à la tomate",
+      "url": "../assets/recipe3.jpg",
+      "preparation_time": "20 minutes",
+      "ingredients": [
+        { "name": "pâtes", "quantity": 200, "unit": "g" },
+        { "name": "tomates", "quantity": 3, "unit": "unités" },
+        { "name": "huile d'olive", "quantity": 2, "unit": "cuillères à soupe" },
+        { "name": "sel", "quantity": 1, "unit": "pincée" }
+      ],
+      "steps": [
+        "Faites bouillir une casserole d'eau salée.",
+        "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
+        "Pendant ce temps, coupez les tomates en morceaux.",
+        "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
+        "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
+        "Servez chaud."
+      ]
+    },
+    {
+      "title": "Omelette nature",
+      "url": "https://www.example.com/omelette-nature",
+      "preparation_time": "10 minutes",
+      "ingredients": [
+        { "name": "œufs", "quantity": 3, "unit": "unités" },
+        { "name": "beurre", "quantity": 10, "unit": "g" },
+        { "name": "sel", "quantity": 1, "unit": "pincée" },
+        { "name": "poivre", "quantity": 1, "unit": "pincée" }
+      ],
+      "steps": [
+        "Cassez les œufs dans un bol et battez-les avec une fourchette.",
+        "Ajoutez le sel et le poivre selon votre goût.",
+        "Faites fondre le beurre dans une poêle à feu moyen.",
+        "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
+        "Pliez l'omelette en deux et servez."
+      ]
+    },
+    {
+      "title": "Salade de pâtes au basilic",
+      "url": "https://www.example.com/salade-pates-basilic",
+      "preparation_time": "25 minutes",
+      "ingredients": [
+        { "name": "pâtes", "quantity": 250, "unit": "g" },
+        { "name": "tomates cerises", "quantity": 200, "unit": "g" },
+        { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
+        { "name": "huile d'olive", "quantity": 3, "unit": "cuillères à soupe" },
+        { "name": "vinaigre balsamique", "quantity": 1, "unit": "cuillère à soupe" }
+      ],
+      "steps": [
+        "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
+        "Égouttez-les et laissez-les refroidir.",
+        "Coupez les tomates cerises en deux.",
+        "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
+        "Servez frais."
+      ]
+    },
+    {
+      "title": "Soupe de légumes",
+      "url": "https://www.example.com/soupe-legumes",
+      "preparation_time": "40 minutes",
+      "ingredients": [
+        { "name": "carottes", "quantity": 3, "unit": "unités" },
+        { "name": "pommes de terre", "quantity": 2, "unit": "unités" },
+        { "name": "courgette", "quantity": 1, "unit": "unité" },
+        { "name": "bouillon de légumes", "quantity": 1, "unit": "cube" },
+        { "name": "eau", "quantity": 1, "unit": "litre" }
+      ],
+      "steps": [
+        "Épluchez et coupez tous les légumes en morceaux.",
+        "Faites chauffer l'eau dans une grande casserole et ajoutez le bouillon de légumes.",
+        "Ajoutez les légumes et laissez cuire pendant 30 minutes.",
+        "Mixez la soupe jusqu'à obtenir une texture lisse.",
+        "Servez chaud."
+      ]
+    },
+    {
+      "title": "Quiche lorraine",
+      "url": "https://www.example.com/quiche-lorraine",
+      "preparation_time": "50 minutes",
+      "ingredients": [
+        { "name": "pâte brisée", "quantity": 1, "unit": "rouleau" },
+        { "name": "crème fraîche", "quantity": 200, "unit": "ml" },
+        { "name": "lardons", "quantity": 150, "unit": "g" },
+        { "name": "œufs", "quantity": 3, "unit": "unités" },
+        { "name": "fromage râpé", "quantity": 100, "unit": "g" }
+      ],
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Étalez la pâte dans un moule à tarte.",
+        "Dans un bol, mélangez la crème, les œufs, et le fromage râpé.",
+        "Répartissez les lardons sur la pâte, puis versez le mélange dessus.",
+        "Faites cuire au four pendant 35 minutes.",
+        "Servez chaud ou froid."
+      ]
+    },
+    {
+      "title": "Tarte aux pommes",
+      "url": "https://www.example.com/tarte-pommes",
+      "preparation_time": "45 minutes",
+      "ingredients": [
+        { "name": "pâte feuilletée", "quantity": 1, "unit": "rouleau" },
+        { "name": "pommes", "quantity": 4, "unit": "unités" },
+        { "name": "sucre", "quantity": 50, "unit": "g" },
+        { "name": "beurre", "quantity": 20, "unit": "g" }
+      ],
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Étalez la pâte dans un moule à tarte.",
+        "Épluchez et coupez les pommes en fines tranches.",
+        "Disposez les pommes sur la pâte, saupoudrez de sucre et ajoutez quelques noisettes de beurre.",
+        "Faites cuire au four pendant 30 minutes.",
+        "Laissez refroidir avant de servir."
+      ]
+    }
+
+  ]
+
+
+
+ 
+  
