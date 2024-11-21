@@ -1,0 +1,33 @@
+.RecipeDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.RecipeDetails img {
+    border-radius: 0.8em; 
+    width: 50%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.RecipeDetails-tags {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 0.2em 0.5em;
+}
+
+.RecipeDetails-ingredients {
+    
+}
+
+.RecipeDetails-steps {
+    margin-left: 2em;
+}
+
+.RecipeDetails-steps h3 {
+    text-transform: uppercase; 
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    color: gray;
+}
