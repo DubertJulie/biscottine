@@ -3,19 +3,14 @@
     padding: 0;
 }
 
-/*a enlever juste pour du visuel*/
-body{
-    background-color: #006C55;
-}
-
 .encadrementIngredientInput {
-    margin-top: 9%;
-    margin-left: 9%;
-    margin-right: 70%;
+    margin-top: 2%;
+    margin-left: 8.4%;
+    margin-right: 72%;
     margin-bottom: 2%;
     background-color: white;
-    height: 45em;
-    border-radius: 0.8em 0 0% 0.8em;
+    height: 42em;
+    border-radius: 0.8em 0 0 0.8em ;
 }
 
 .ingredientInput {
@@ -24,18 +19,19 @@ body{
 }
 .titreLogoInput{
     width: 10em;
-    margin-left: 7.5em;
+    margin-left: 6.7em;
 }
 
 .biscottineMascotteInput{
     padding-top: 10%;
-    margin-left: 10.5em;
+    margin-left: 9.5em;
     width: 4em;
 }
 
 .texteSousLogoInput{
     font-size: 1.2em;
-    margin-left: 8em;
+    font-weight: 500;
+    margin-left: 7.2em
 }
 
 .ingredientInput{
@@ -44,5 +40,4 @@ body{
     border-radius: 2em;
     margin-left: 2.6em;
     margin-top: 2em;
-    
 }
