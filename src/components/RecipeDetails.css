@@ -22,27 +22,27 @@
 
 /* Tags individuels */
 .RecipeDetails-tag {
-    background-color: black;
+    background-color: #CF6464;
     color: white;
     border-radius: 1em;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.7em;
 }
 
 /* Tags individuels par id */
 #min {
-    background-color: red;
+    background-color: var(--tag1);
 }
 
-#coréenne {
-    background-color: blueviolet;
-}
-
-#italienne {
-    background-color: pink;
+#coreenne {
+    background-color: var(--tag2);
 }
 
 #japonaise {
-    background-color: green;
+    background-color: var(--tag3);
+}
+
+#italienne {
+    background-color: var(--tag4);
 }
 
 /* Div qui contient les ingrédients */
@@ -58,10 +58,13 @@
     padding: 1.5em;
 }
 
-
 /* Recette */
 .RecipeDetails-steps {
     margin-left: 2em;
+}
+
+.RecipeDetails-step {
+    margin: 1em;
 }
 
 /* CSS des titres "Etapes" de la recette */

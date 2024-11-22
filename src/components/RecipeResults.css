@@ -31,6 +31,23 @@
     line-height: 1.2em;
 }
 
+/* Id spéciaux pour le background des cartes */
+#min {
+    background-color: var(--tag1);
+}
+
+#coreenne {
+    background-color: var(--tag2);
+}
+
+#japonaise {
+    background-color: var(--tag3);
+}
+
+#italienne {
+    background-color: var(--tag4);
+}
+
 /* Dans la carte des recettes, titre de la recette */
 .RecipeResults-card-title {
     font-size: 0.9em;
