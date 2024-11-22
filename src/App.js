@@ -6,8 +6,8 @@ import RecipeDetails from './components/RecipeDetails.js';
 function App() {
   return (
     <>
-      <RecipeResults />
       <RecipeDetails />
+      <RecipeResults />
     </>
   );
 }

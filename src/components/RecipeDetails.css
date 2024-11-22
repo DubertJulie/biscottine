@@ -22,8 +22,8 @@
 
 /* Tags individuels */
 .RecipeDetails-tag {
-    background-color: #CF6464;
-    color: white;
+    background-color: gray; /* Couleur par défaut */
+    color: var(--text-color-alt);
     border-radius: 1em;
     padding: 0.2em 0.7em;
 }

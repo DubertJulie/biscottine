@@ -55,6 +55,119 @@
         "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
         "Servez frais."
       ]
+    },
+    {
+      "title": "Pâtes à la tomate",
+      "url": "assets/recipe2.jpg",
+      "preparation_time": "20 minutes",
+      "tags": [ "30 minutes", "Cuisine italienne" ], 
+      "ingredients": [
+        { "name": "pâtes", "quantity": 200, "unit": "g" },
+        { "name": "tomates", "quantity": 3, "unit": "unités" },
+        { "name": "huile d'olive", "quantity": 2, "unit": "cuillères à soupe" },
+        { "name": "sel", "quantity": 1, "unit": "pincée" }
+      ],
+      "steps": [
+        "Faites bouillir une casserole d'eau salée.",
+        "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
+        "Pendant ce temps, coupez les tomates en morceaux.",
+        "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
+        "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
+        "Servez chaud."
+      ]
+    },
+    {
+      "title": "Omelette nature",
+      "url": "assets/recipe.jpg",
+      "preparation_time": "10 minutes",
+      "ingredients": [
+        { "name": "œufs", "quantity": 3, "unit": "unités" },
+        { "name": "beurre", "quantity": 10, "unit": "g" },
+        { "name": "sel", "quantity": 1, "unit": "pincée" },
+        { "name": "poivre", "quantity": 1, "unit": "pincée" }
+      ],
+      "steps": [
+        "Cassez les œufs dans un bol et battez-les avec une fourchette.",
+        "Ajoutez le sel et le poivre selon votre goût.",
+        "Faites fondre le beurre dans une poêle à feu moyen.",
+        "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
+        "Pliez l'omelette en deux et servez."
+      ]
+    },
+    {
+      "title": "Salade de pâtes au basilic",
+      "url": "assets/recipe3.jpg",
+      "preparation_time": "25 minutes",
+      "ingredients": [
+        { "name": "pâtes", "quantity": 250, "unit": "g" },
+        { "name": "tomates cerises", "quantity": 200, "unit": "g" },
+        { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
+        { "name": "huile d'olive", "quantity": 3, "unit": "cuillères à soupe" },
+        { "name": "vinaigre balsamique", "quantity": 1, "unit": "cuillère à soupe" }
+      ],
+      "steps": [
+        "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
+        "Égouttez-les et laissez-les refroidir.",
+        "Coupez les tomates cerises en deux.",
+        "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
+        "Servez frais."
+      ]
+    },{
+      "title": "Pâtes à la tomate",
+      "url": "assets/recipe2.jpg",
+      "preparation_time": "20 minutes",
+      "tags": [ "30 minutes", "Cuisine italienne" ], 
+      "ingredients": [
+        { "name": "pâtes", "quantity": 200, "unit": "g" },
+        { "name": "tomates", "quantity": 3, "unit": "unités" },
+        { "name": "huile d'olive", "quantity": 2, "unit": "cuillères à soupe" },
+        { "name": "sel", "quantity": 1, "unit": "pincée" }
+      ],
+      "steps": [
+        "Faites bouillir une casserole d'eau salée.",
+        "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
+        "Pendant ce temps, coupez les tomates en morceaux.",
+        "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
+        "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
+        "Servez chaud."
+      ]
+    },
+    {
+      "title": "Omelette nature",
+      "url": "assets/recipe.jpg",
+      "preparation_time": "10 minutes",
+      "ingredients": [
+        { "name": "œufs", "quantity": 3, "unit": "unités" },
+        { "name": "beurre", "quantity": 10, "unit": "g" },
+        { "name": "sel", "quantity": 1, "unit": "pincée" },
+        { "name": "poivre", "quantity": 1, "unit": "pincée" }
+      ],
+      "steps": [
+        "Cassez les œufs dans un bol et battez-les avec une fourchette.",
+        "Ajoutez le sel et le poivre selon votre goût.",
+        "Faites fondre le beurre dans une poêle à feu moyen.",
+        "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
+        "Pliez l'omelette en deux et servez."
+      ]
+    },
+    {
+      "title": "Salade de pâtes au basilic",
+      "url": "assets/recipe3.jpg",
+      "preparation_time": "25 minutes",
+      "ingredients": [
+        { "name": "pâtes", "quantity": 250, "unit": "g" },
+        { "name": "tomates cerises", "quantity": 200, "unit": "g" },
+        { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
+        { "name": "huile d'olive", "quantity": 3, "unit": "cuillères à soupe" },
+        { "name": "vinaigre balsamique", "quantity": 1, "unit": "cuillère à soupe" }
+      ],
+      "steps": [
+        "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
+        "Égouttez-les et laissez-les refroidir.",
+        "Coupez les tomates cerises en deux.",
+        "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
+        "Servez frais."
+      ]
     }
   ]
   

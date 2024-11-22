@@ -1,33 +1,8 @@
 import React from 'react';
 import './RecipeDetails.css';
 import data from '../data/recipes.json';
+// import recette ciblée from la page resultats ?
 
-// export default function RecipeDetails() {
-//     return (
-//         <>
-//         <div className="RecipeDetails">
-//             <img src={recipe} />
-//             <h1>Titre de la recette</h1>
-//             <div className="RecipeDetails-tags">
-//                 <div className="RecipeDetails-tag" id="japonaise">Cuisine japonaise</div>
-//                 <div className="RecipeDetails-tag" id="min">30 minutes</div>
-
-//             </div>
-
-//             <div className="RecipeDetails-ingredients">
-//                 <div className="RecipeDetails-ingredient">Ail</div>
-//             </div>       
-
-//             <h2>Préparation</h2>
-//             <div className="RecipeDetails-steps">
-//                 <h3>Etape 1</h3>
-//                 Cuire les pâtes
-//             </div>
-//         </div>
-        
-//         </>
-//     )
-// }
 
 // la recette qui est ciblée, à modifier en fonction de la carte qui est cliquée sur la page de résultats
 const recette = data[0];
@@ -60,11 +35,10 @@ function TagList(props) {
 
 // Function qui gère l'affichage individuel des étapes de la recette
 // Elle retourne aussi le "Etape i" devant l'étape
-
 function StepList(props) {
   return (
     <>
-    <h3>Etape</h3>
+    <h3>Etape {props.index + 1}</h3>
     <div className="RecipeDetails-step">
       {props.step}
     </div>
@@ -72,10 +46,21 @@ function StepList(props) {
   )
 }
 
-// function qui crée la fiche de la recette pour chaque entité du tableau data 
+function IngredientList(props) {
+  return (
+    <>
+    <div className="">
+      <img src="" classname="" />
+      <div className="">{props.quantity} {props.unity} {props.name}</div>
+    </div>
+    </>
+  )
+}
+
+// Function qui crée la fiche de la recette pour chaque entité du tableau data 
 export default function RecipeDetails() {    
     const tags = recette.tags;
-    // const ingredients = recette.ingredients;
+    const ingredients = recette.ingredients;
     const steps = recette.steps;
     console.log(steps);
 
@@ -97,20 +82,11 @@ export default function RecipeDetails() {
 
           <h2>Préparation</h2>
           <div className="RecipeDetails-steps">
-            {/* {steps.map((StepList) => (
-              <StepList step={StepList} />
-              }
-            ))}  */}
+              {steps.map((step, index) => (
+                <StepList key={index} step={step} index={index} />
+              ))}
           </div>
       </div>
     );
 
-
 }
-
-// Appeler l'élément du JSON
-// Appeler l'image, le titre
-
-// Appeler les tags > pour chaque entrée du sous-tableau, afficher image + quantité + unité
-
-// Afficher les étapes de la préparation "étape i + steps"

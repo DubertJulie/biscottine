@@ -19,11 +19,10 @@ function RecipeCard(props) {
       
 }
 
-// Function to populate le div container RecipeResults
+// Function pour peupler le div container RecipeResults
 export default function RecipeResults() {
 
     return (
-        <>
         <div className="RecipeResults">
 
         {data.map((carte, index) => (
@@ -31,7 +30,6 @@ export default function RecipeResults() {
             ))}
 
         </div>
-        </>
     )
 }
 
