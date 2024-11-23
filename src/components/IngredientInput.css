@@ -41,3 +41,28 @@
     margin-left: 2.6em;
     margin-top: 2em;
 }
+
+/* taille de la scroll bar  */
+.alignementInputRecherche::-webkit-scrollbar{
+   width: 0.9em; 
+   background-color:  black;
+   
+}
+
+.alignementInputRecherche::-webkit-scrollbar-thumb{
+    background-color: gray;
+border-radius: 2em;
+}
+.alignementInputRecherche{
+    color: gray;
+    overflow-y: auto ;
+    height: 6em;
+    text-align: center;
+    border: 0.1vw solid gray;
+    margin-top: 0.2em;
+    border-radius: 2em;
+    width: 19.5em;
+    margin-left: 2em;
+}
+
+
