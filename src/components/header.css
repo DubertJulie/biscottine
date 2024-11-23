@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* A suprimer  */
+body {
+    background-color: #006C55;
+}
+
+
+/* sa c'est l'encadrement  */
+.encadrementTete {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 10em;
+    background-color: white;
+    width: 102em;
+    height: 5em;
+    border-radius: 0.8em;
+    display: flex;
+}
+
+/* L'image de la mascotte  */
+.mascotteHeader {
+    margin-left: 2em;
+    height: 3.7em;
+    width: 2.4em;
+    margin-top: 0.5em;
+    margin-right: 1.8em;
+
+}
+
+.logoHeader {
+    height: 3.1em;
+    width: 12em;
+    margin-top: 0.6em;
+
+}
+
+.hedearRecette {
+    margin-left: 50em;
+    margin-top: 1.3em;
+    font-size: 1vw;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.headerFavoris {
+    margin-top: 1.3em;
+    margin-left: 2em;
+    font-size: 1vw;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* Placement des ol  */
+.headerlist {
+    display: grid;
+    justify-content: end;
+    grid-auto-flow: column;
+    list-style: none;
+}

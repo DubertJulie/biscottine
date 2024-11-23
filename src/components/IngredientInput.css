@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encadrementIngredientInput {
+    margin-top: 2%;
+    margin-left: 8.4%;
+    margin-right: 72%;
+    margin-bottom: 2%;
+    background-color: white;
+    height: 42em;
+    border-radius: 0.8em 0 0 0.8em ;
+}
+
+.ingredientInput {
+    background-color: white;
+    border-color: gray;
+}
+.titreLogoInput{
+    width: 10em;
+    margin-left: 6.7em;
+}
+
+.biscottineMascotteInput{
+    padding-top: 10%;
+    margin-left: 9.5em;
+    width: 4em;
+}
+
+.texteSousLogoInput{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-left: 7.2em
+}
+
+.ingredientInput{
+    height: 2em;
+    width: 23em;
+    border-radius: 2em;
+    margin-left: 2.6em;
+    margin-top: 2em;
+}
+
+/* taille de la scroll bar  */
+.alignementInputRecherche::-webkit-scrollbar{
+   width: 0.9em; 
+   background-color:  black;
+   
+}
+
+.alignementInputRecherche::-webkit-scrollbar-thumb{
+    background-color: gray;
+border-radius: 2em;
+}
+.alignementInputRecherche{
+    color: gray;
+    overflow-y: auto ;
+    height: 6em;
+    text-align: center;
+    border: 0.1vw solid gray;
+    margin-top: 0.2em;
+    border-radius: 2em;
+    width: 19.5em;
+    margin-left: 2em;
+}
+
+
