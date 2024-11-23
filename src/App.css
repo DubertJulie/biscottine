@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  --background-color: #006C55;
+  --idea-color: #00493A; /* couleur du bouton "pas d'idée" */
+  --text-color: black;
+  --text-color-alt: white;
+  --tag1: #FF5555; /* tag 30 minutes */
+  --tag2: #69C6BE; /* tag cuisine coréenne */
+  --tag3: #C1C641; /* tag cuisine japonaise */
+  --tag4: #CF6464; /* cuisine italienne */
+  --ingredient-selected: #4FB50F; /* ingrédients sélectionnés */
+  --ingredients-avoided: #FF7474; /* ingrédients à éviter */
+  /* Ajouter les couleurs de texte noir & blanc */
 }

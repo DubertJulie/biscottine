@@ -1,0 +1,76 @@
+/* Container de la recette */
+.RecipeDetails {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+/* Image de la recette */
+.RecipeDetails img {
+    border-radius: 0.8em; 
+    width: 50%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+/* Div qui contient tous les tags */
+.RecipeDetails-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}
+
+/* Tags individuels */
+.RecipeDetails-tag {
+    background-color: gray; /* Couleur par défaut */
+    color: var(--text-color-alt);
+    border-radius: 1em;
+    padding: 0.2em 0.7em;
+}
+
+/* Tags individuels par id */
+#min {
+    background-color: var(--tag1);
+}
+
+#coreenne {
+    background-color: var(--tag2);
+}
+
+#japonaise {
+    background-color: var(--tag3);
+}
+
+#italienne {
+    background-color: var(--tag4);
+}
+
+/* Div qui contient les ingrédients */
+.RecipeDetails-ingredients {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.RecipeDetails-ingredient {
+    background-color: grey;
+    border-radius: 0.8em;
+    padding: 1.5em;
+}
+
+/* Recette */
+.RecipeDetails-steps {
+    margin-left: 2em;
+}
+
+.RecipeDetails-step {
+    margin: 1em;
+}
+
+/* CSS des titres "Etapes" de la recette */
+.RecipeDetails-steps h3 {
+    text-transform: uppercase; 
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    color: gray;
+}

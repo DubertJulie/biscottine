@@ -6,7 +6,7 @@
 .encadrementIngredientInput {
     margin-top: 2%;
     margin-left: 8.4%;
-    margin-right: 72%;
+    margin-right: 10%;
     margin-bottom: 2%;
     background-color: white;
     height: 42em;
@@ -15,7 +15,7 @@
 
 .ingredientInput {
     background-color: white;
-    border-color: gray;
+    border-color: rgb(210, 209, 209);
 }
 .titreLogoInput{
     width: 10em;
@@ -44,25 +44,29 @@
 
 /* taille de la scroll bar  */
 .alignementInputRecherche::-webkit-scrollbar{
-   width: 0.9em; 
-   background-color:  black;
+   width: 0.6em; 
+   border-radius: 4em;
    
 }
 
 .alignementInputRecherche::-webkit-scrollbar-thumb{
-    background-color: gray;
-border-radius: 2em;
+    background-color: rgb(210, 209, 209);
+    border-radius: 2em;
 }
 .alignementInputRecherche{
     color: gray;
     overflow-y: auto ;
-    height: 6em;
+    height: 7em;
     text-align: center;
-    border: 0.1vw solid gray;
+    border: 0.1vw solid rgb(210, 209, 209);
     margin-top: 0.2em;
-    border-radius: 2em;
+    border-radius: 1em;
     width: 19.5em;
     margin-left: 2em;
 }
 
+.ingredientRechercheInput{
+    display: flex;
+    padding-top: 0.5em;
+}
 

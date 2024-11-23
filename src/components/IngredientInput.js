@@ -2,14 +2,14 @@
 import React, { useState } from 'react';
 
 // Le json 
-import data from './data/recipes.json';
+import data from '../data/recipes.json';
 // le css 
 import './IngredientInput.css';
 // image de la mascotte 
 import mascotteBiscottine from '../assets/mascotte.png'
 // le logo 
 import logoInputIngredient from '../assets/logo.png'
-
+import RecipeResults from './RecipeResults';
 
 
 
@@ -43,6 +43,28 @@ function IngredientInput() {
         setIngredientGarder((prev) => prev.filter(item => item.name !== ingredient.name));
     };
 
+
+    // ici pour filtered 
+    const filteredRecipes = data.filter((recipe) => {
+      const recetteIngredients = recipe.ingredients.map(ing => ing.name.toLowerCase());
+
+      console.log(filteredRecipes);
+
+      // Vérifie si tous les ingrédients gardés sont dans la recette
+      const contientIngredientsGarder = ingredientGarder.length === 0 || 
+    ingredientGarder.some((ingredient) => 
+    recetteIngredients.includes(ingredient.name.toLowerCase())
+);
+
+      // Vérifie que la recette ne contient pas d'ingrédients évités
+      const contientIngredientsEviter = ingredientEviter.some((ingredient) =>
+          recetteIngredients.includes(ingredient.name.toLowerCase())
+      );
+
+      // Retourne vrai si la recette contient tous les ingrédients gardés et aucun évité
+      return contientIngredientsGarder && !contientIngredientsEviter;
+  });
+
     // c'est un if else pour donner le choix si lélément est a éviter ou garder 
     const ingredientChoix = (ingredient, choix) => {
         if (choix === "Garder") {
@@ -57,12 +79,18 @@ function IngredientInput() {
     // sa permet de selectionner uniquement les ingredient dans le tableau 
     const toutIngredients = data.flatMap(recipe => recipe.ingredients);
 
-    // filtrer les ingredient et prendre en compte les majuscule et les mettre en minuscule pris de la saisie utilisateur 
-    const filtreIngredients = toutIngredients.filter(ingredient =>
-        saisie === '' || ingredient.name.toLowerCase().includes(saisie.toLowerCase())
-    );
+    const ingredientUnique = new Set(); 
 
-
+    const filtreIngredients = [];
+    toutIngredients.forEach(ingredient => {
+     
+      if (!ingredientUnique.has(ingredient.name)) {
+        filtreIngredients.push(ingredient); 
+        ingredientUnique.add(ingredient.name); 
+      }
+    });
+   
+    
 
     return (
 
@@ -94,7 +122,7 @@ function IngredientInput() {
                             
                             <ul className='inputIngredientName'>
                                 {/* ce qui aparait dans la barre de recherche  */}
-                            <li className=''>{ingredient.name}</li>
+                            <li className='ingredientRechercheInput'>{ingredient.name}</li>
                             </ul>
                             {/* button garder  */}
                             <button
@@ -121,7 +149,7 @@ function IngredientInput() {
             )}
 
        {saisie !== '' && (
-        <div className="selections">
+        <div className=''>
           <p className='inputIngredientGarder'>Ingrédients gardés :</p>
           <ul>
             {ingredientGarder.map((ingredient, index) => (
@@ -152,6 +180,16 @@ function IngredientInput() {
         </div>
       )}
 
+  {/* la zone interessante Pour ton image  */}
+  {filteredRecipes.length > 0 ? (
+                <div className="recipe-list">
+                    {filteredRecipes.map((recipe, index) => (
+                        <RecipeResults key={index} recipe={recipe}/>
+                    ))}
+                </div>
+            ) : (
+                <p>Aucune recette ne correspond aux critères sélectionnés.</p>
+            )}
 
 
         </div>

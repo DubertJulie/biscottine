@@ -5,6 +5,7 @@
 
 /* A suprimer  */
 body {
+    /* la couleur arriere plan  */
     background-color: #006C55;
 }
 
@@ -12,38 +13,57 @@ body {
 /* sa c'est l'encadrement  */
 .encadrementTete {
     display: flex;
+    /* espace en haut */
     margin-top: 2em;
+    /* espace a gauche  */
     margin-left: 10em;
+    /* la couleur  */
     background-color: white;
+    /* largeur */
     width: 102em;
+    /* Hauteur */
     height: 5em;
+    /* arrondis sur les bord  */
     border-radius: 0.8em;
-    display: flex;
 }
 
 /* L'image de la mascotte  */
 .mascotteHeader {
+    /* marge a gauche  */
     margin-left: 2em;
+    /* hauteur  */
     height: 3.7em;
+    /* largeur  */
     width: 2.4em;
+    /* marge en haut  */
     margin-top: 0.5em;
+    /* marge a droite  */
     margin-right: 1.8em;
 
 }
 
 .logoHeader {
+    /* hauteur */
     height: 3.1em;
+    /* largeur  */
     width: 12em;
+    /* marge en haut */
     margin-top: 0.6em;
 
 }
 
 .hedearRecette {
+    /* marge gauche  */
     margin-left: 50em;
+    /* marge droite  */
     margin-top: 1.3em;
+    /* taille du texte  */
     font-size: 1vw;
+    /* epaisseur de la lettre  */
     font-weight: 600;
+    /* enlever la texte decoration */
     text-decoration: none;
+    /* la couleur de la lettre  */
     color: #000;
 }
 
@@ -63,5 +83,6 @@ body {
     display: grid;
     justify-content: end;
     grid-auto-flow: column;
+    /* enlever la list decoration de ol  */
     list-style: none;
 }
