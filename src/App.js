@@ -1,11 +1,12 @@
+import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import IngredientInput from './components/IngredientInput'; 
-
-
+import ingredientInput from './components/IngredientInput.js';
+import Header from './components/Header.js';
+import
 
 function App() {
   return (
+
     <div> 
       <Header />
       <IngredientInput />
@@ -14,9 +15,8 @@ function App() {
       
       
     </div>
-  );
+
+  )
 }
 
 export default App;
-
-
