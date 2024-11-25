@@ -11,7 +11,7 @@ function RecipeCard(props) {
     
                 <img src={props.url} className="RecipeResults-card-img"/> 
     
-                <div className="RecipeResults-card-info">
+                <div className="RecipeResults-card-info"> 
                     <div className="RecipeResults-card-title">{props.title}</div>
                     <div className="RecipeResults-card-preparation">{props.preparation_time}</div>
                 </div>
