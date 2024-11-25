@@ -5,8 +5,15 @@
     width: 80%;
 }
 
+.RecipeDetails-title-fav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Image de la recette */
-.RecipeDetails img {
+.RecipeDetails-img {
     border-radius: 0.8em; 
     width: 50%;
     height: 40vh;
@@ -46,16 +53,28 @@
 }
 
 /* Div qui contient les ingrédients */
-.RecipeDetails-ingredients {
+.RecipeDetails-ing-container {
     display: flex;
     flex-direction: row;
-    margin-top: 0.5em;
+    margin-top: 1em;
+    width: 60%;
 }
 
-.RecipeDetails-ingredient {
-    background-color: grey;
+/* Div qui contient les ingrédients */
+.RecipeDetails-ingredients {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    max-width: 10%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.RecipeDetails-ingredient-img {
+    width: auto;
+    background-color: whitesmoke;
     border-radius: 0.8em;
-    padding: 1.5em;
+    padding: 0.5em;
 }
 
 /* Recette */
