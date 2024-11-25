@@ -3,6 +3,7 @@ import './RecipeResults.css';
 import data from '../data/recipes.json';
 
 
+
 // function qui crée une carte pour chaque entité du tableau data 
 function RecipeCard(props) {
         return (        
@@ -16,20 +17,32 @@ function RecipeCard(props) {
                 </div>
             </div>
         )
-      
+
 }
 
 // Function pour peupler le div container RecipeResults
 export default function RecipeResults() {
 
     return (
+        <>
         <div className="RecipeResults">
 
         {data.map((carte, index) => (
-                <RecipeCard key={index} url={carte.url} title={carte.title} preparation_time={carte.preparation_time} tags={carte.tags} />
+
+                <RecipeCard 
+                key={index}
+                url={carte.url} 
+                title={carte.title}
+                preparation_time={carte.preparation_time} 
+                tags={carte.tags} 
+                />
+
+                
+
             ))}
 
         </div>
+        </>
     )
 }
 

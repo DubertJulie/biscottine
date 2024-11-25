@@ -1,15 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
-import RecipeResults from './components/RecipeResults.js';
-import RecipeDetails from './components/RecipeDetails.js';
+import IngredientInput from './components/IngredientInput.js';
+import Header from './components/Header.js';
+
 
 function App() {
   return (
-    <>
-      <RecipeDetails />
-      <RecipeResults />
-    </>
-  );
+
+    <div> 
+      <Header />
+      <IngredientInput />
+    
+     
+      
+      
+    </div>
+
+  )
 }
 
 export default App;

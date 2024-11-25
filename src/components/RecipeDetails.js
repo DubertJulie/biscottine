@@ -1,9 +1,9 @@
 import React from 'react';
 import './RecipeDetails.css';
 import data from '../data/recipes.json';
-import React, { useRef } from "react";
-
 // import recette ciblée from la page resultats ?
+
+
 // la recette qui est ciblée, à modifier en fonction de la carte qui est cliquée sur la page de résultats
 const recette = data[1];
 console.log(data[0]);
@@ -101,3 +101,4 @@ export default function RecipeDetails() {
     );
 
 }
+

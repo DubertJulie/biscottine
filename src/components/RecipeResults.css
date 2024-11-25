@@ -7,7 +7,7 @@
 
 /* Carte des recettes */
 .RecipeResults-card {
-    width: 12%;
+    
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -16,7 +16,7 @@
 /* Dans la carte des recettes, image de la recette */
 .RecipeResults-card-img {
     border-radius: 0.8em 0.8em 0 0; 
-    width: 100%;
+    width: 22vh;
     height: 30vh;
     object-fit: cover;
 }

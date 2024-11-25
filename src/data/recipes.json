@@ -5,10 +5,10 @@
       "preparation_time": "20 minutes",
       "tags": [ "30 minutes", "Cuisine italienne" ], 
       "ingredients": [
-        { "name": "pâtes", "quantity": 200, "unit": "g", "img": "assets/ail.png" },
-        { "name": "tomates", "quantity": 3, "unit": "", "img": "assets/ail.png"},
-        { "name": "huile d'olive", "quantity": 2, "unit": "càs", "img": "assets/ail.png" },
-        { "name": "sel", "quantity": 1, "unit": "pincée", "img": "assets/ail.png"}
+        { "name": "pâtes","url1": "assets/ail.png","quantity": 200, "unit": "g", "img": "assets/ail.png" },
+        { "name": "tomates","url1": "assets/ail.png", "quantity": 3, "unit": "", "img": "assets/ail.png"},
+        { "name": "huile d'olive","url1": "assets/ail.png", "quantity": 2, "unit": "càs", "img": "assets/ail.png" },
+        { "name": "sel","url1": "assets/ail.png", "quantity": 1, "unit": "pincée", "img": "assets/ail.png"}
       ],
       "steps": [
         "Faites bouillir une casserole d'eau salée.",
@@ -26,10 +26,10 @@
       "preparation_time": "10 minutes",
       "tags": [ "30 minutes", "Cuisine coréenne" ], 
       "ingredients": [
-        { "name": "œufs", "quantity": 3, "unit": "unités" },
-        { "name": "beurre", "quantity": 10, "unit": "g" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" },
-        { "name": "poivre", "quantity": 1, "unit": "pincée" }
+        { "name": "œufs","url1": "assets/ail.png", "quantity": 3, "unit": "unités" },
+        { "name": "beurre","url1": "assets/ail.png", "quantity": 10, "unit": "g" },
+        { "name": "sel","url1": "assets/ail.png", "quantity": 1, "unit": "pincée" },
+        { "name": "poivre","url1": "assets/ail.png", "quantity": 1, "unit": "pincée" }
       ],
       "steps": [
         "Cassez les œufs dans un bol et battez-les avec une fourchette.",
@@ -44,6 +44,7 @@
       "title": "Salade de pâtes au basilic",
       "url": "assets/recipe3.jpg",
       "preparation_time": "25 minutes",
+      "tags": [ "30 minutes", "Cuisine Chinoise" ], 
       "ingredients": [
         { "name": "pâtes", "quantity": 250, "unit": "g" },
         { "name": "tomates cerises", "quantity": 200, "unit": "g" },
@@ -63,7 +64,8 @@
       "title": "Pâtes à la tomate",
       "url": "assets/recipe2.jpg",
       "preparation_time": "20 minutes",
-      "tags": [ "30 minutes", "Cuisine italienne" ], 
+      "tags": [ "30 minutes", "Cuisine Coréen" ], 
+      
       "ingredients": [
         { "name": "pâtes", "quantity": 200, "unit": "g" },
         { "name": "tomates", "quantity": 3, "unit": "unités" },
@@ -83,11 +85,12 @@
       "title": "Omelette nature",
       "url": "assets/recipe.jpg",
       "preparation_time": "10 minutes",
+      "tags": [ "30 minutes", "Cuisine Japonnais" ], 
       "ingredients": [
-        { "name": "œufs", "quantity": 3, "unit": "unités" },
-        { "name": "beurre", "quantity": 10, "unit": "g" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" },
-        { "name": "poivre", "quantity": 1, "unit": "pincée" }
+        { "name": "œufs","url1": "assets/ail.png", "quantity": 3, "unit": "unités" },
+        { "name": "beurre","url1": "assets/ail.png", "quantity": 10, "unit": "g" },
+        { "name": "sel","url1": "assets/ail.png", "quantity": 1, "unit": "pincée" },
+        { "name": "poivre","url1": "assets/ail.png", "quantity": 1, "unit": "pincée" }
       ],
       "steps": [
         "Cassez les œufs dans un bol et battez-les avec une fourchette.",
@@ -101,6 +104,7 @@
       "title": "Salade de pâtes au basilic",
       "url": "assets/recipe3.jpg",
       "preparation_time": "25 minutes",
+      "tags": [ "30 minutes", "Cuisine Française" ], 
       "ingredients": [
         { "name": "pâtes", "quantity": 250, "unit": "g" },
         { "name": "tomates cerises", "quantity": 200, "unit": "g" },
@@ -172,5 +176,6 @@
         "Servez frais."
       ]
     }
+    
   ]
-  
+    

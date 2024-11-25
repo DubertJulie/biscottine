@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encadrementIngredientInput {
+    margin-top: 2%;
+    margin-left: 8.2%;
+    margin-bottom: 2%;
+    height: auto;
+    display: flex;
+    width: 185vh;
+}
+
+.encadrementRecherche {
+    max-width: 24em;
+    background-color: white;
+    border-radius: 0.8em 0 0 0.8em;
+}
+
+.resultatRecherchePlat {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    width: 77.9em;
+    overflow-y: auto;
+    border-radius: 0 0.8em 0.8em 0;
+}
+
+/* gere la largeur de la scrollbar  */
+.resultatRecherchePlat::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+/* gere la couleur et le radius de la scrollbar */
+.resultatRecherchePlat::-webkit-scrollbar-thumb {
+    background-color: rgb(210, 209, 209);
+    border-radius: 1.5em;
+}
+
+.ingredientInput {
+    text-align: center;
+    color: gray;
+    background-color: white;
+    border-color: rgb(210, 209, 209);
+}
+
+.titreLogoInput {
+    width: 10em;
+    margin-left: 6.7em;
+}
+
+.biscottineMascotteInput {
+    padding-top: 10%;
+    margin-left: 9.5em;
+    width: 4em;
+}
+
+.texteSousLogoInput {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-left: 7.2em
+}
+
+.ingredientInput {
+    height: 2em;
+    width: 23em;
+    border-radius: 2em;
+    margin-left: 2.6em;
+    margin-top: 2em;
+}
+
+/* taille de la scroll bar , on peut lui mettre un background  */
+.alignementInputRecherche::-webkit-scrollbar {
+    width: 0.6em;
+    border-radius: 4em;
+}
+
+/* modifie la scrollbar la couleur et le raidus  */
+.alignementInputRecherche::-webkit-scrollbar-thumb {
+    background-color: rgb(210, 209, 209);
+    border-radius: 2em;
+}
+
+/* gere la barre de recherche, la couleur du texte Et le fait qu'il y une scroll bar  */
+.alignementInputRecherche {
+    color: black;
+    overflow-y: auto;
+    border: 0.1vw solid rgb(210, 209, 209);
+    height: auto;
+    margin-top: 0.2em;
+    border-radius: 1em;
+    width: 19.5em;
+    margin-left: 2em;
+}
+
+/* les ingredient dans la barre de recherche  */
+.ingredientRechercheInput {
+    padding: 0.2vh;
+    list-style-type: none;
+}
+
+/* button + pour garder les ingredient */
+.buttonGarder {
+    background-color: #93C976;
+    border: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 8em;
+    color: white;
+    margin: auto;
+    margin-right: 0.2em;
+}
+
+/* button - pour eviter les ingredient  */
+.buttonEviter{
+    background-color: #FF7070;
+    border: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 8em;
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Permet l'effet au survole gris dans la barre de recherche */
+.placementInputIngredient:hover{
+    background-color: rgb(227, 220, 220);
+    width: 17.8em;
+    border-radius: 2em;
+}
+
+/* placement dans la barre de recherche  */
+.placementInputIngredient{
+    display: flex;
+    padding-left: 1em;
+    justify-content: space-between;
+}
+
+/* image es ingredient choisie  */
+.choixIngredientImage{
+    width: 5vh;
+    height: 5vh;
+    background-color: #93C976;
+    padding: 1vh;
+    border-radius: 0.8em;
+}
+
+.choixIngredientEviterImage{
+    width: 5vh;
+    height: 5vh;
+    background-color: #FF7676;
+    padding: 1vh;
+    border-radius: 0.8em;
+}
+
+.encadrementAEviter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    direction: rtl;
+    font-size: 1em;
+}
+/* gere le boutton suprimer des ingredient selectioner */
+.buttonSuprimer{
+    display: flex;
+    position: absolute;
+    margin-left: 2.5em;
+    color: white;
+    padding: 0.1em;
+    padding-right: 0.5vh;
+    padding-left: 0.5vh;
+    background-color: black;
+    border: transparent;
+    border-radius: 8em;
+}
+
+.encradrementGarderIngredient{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    direction: rtl;
+    margin-left: 1em;
+    margin-top: 2vh;
+}
+
+.ingredientSelectionnerGarder{
+    text-align: center;
+    width: 7vh;
+    height: 12.5vh;
+    border-radius: 0.8em;
+    margin-left: 0.5vh;
+}
+
+.textIngredientSelect{
+font-weight: 600;
+padding-left: 2vh;
+}
+
+.textIngredientSousImg{
+font-size: 0.9em;
+margin-bottom: 2vh;
+}
+
+.cadreIngredientSelectioner{
+    margin-top: 10px;
+}
+
