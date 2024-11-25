@@ -5,10 +5,10 @@
       "preparation_time": "20 minutes",
       "tags": [ "30 minutes", "Cuisine italienne" ], 
       "ingredients": [
-        { "name": "pâtes", "quantity": 200, "unit": "g" },
-        { "name": "tomates", "quantity": 3, "unit": "unités" },
-        { "name": "huile d'olive", "quantity": 2, "unit": "cuillères à soupe" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" }
+        { "name": "pâtes", "quantity": 200, "unit": "g", "img": "assets/ail.png" },
+        { "name": "tomates", "quantity": 3, "unit": "", "img": "assets/ail.png"},
+        { "name": "huile d'olive", "quantity": 2, "unit": "càs", "img": "assets/ail.png" },
+        { "name": "sel", "quantity": 1, "unit": "pincée", "img": "assets/ail.png"}
       ],
       "steps": [
         "Faites bouillir une casserole d'eau salée.",
@@ -17,12 +17,14 @@
         "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
         "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
         "Servez chaud."
-      ]
+      ],
+      "favorite": true
     },
     {
       "title": "Omelette nature",
       "url": "assets/recipe.jpg",
       "preparation_time": "10 minutes",
+      "tags": [ "30 minutes", "Cuisine coréenne" ], 
       "ingredients": [
         { "name": "œufs", "quantity": 3, "unit": "unités" },
         { "name": "beurre", "quantity": 10, "unit": "g" },
@@ -35,7 +37,8 @@
         "Faites fondre le beurre dans une poêle à feu moyen.",
         "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
         "Pliez l'omelette en deux et servez."
-      ]
+      ],
+      "favorite": true
     },
     {
       "title": "Salade de pâtes au basilic",
@@ -45,8 +48,8 @@
         { "name": "pâtes", "quantity": 250, "unit": "g" },
         { "name": "tomates cerises", "quantity": 200, "unit": "g" },
         { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
-        { "name": "huile d'olive", "quantity": 3, "unit": "cuillères à soupe" },
-        { "name": "vinaigre balsamique", "quantity": 1, "unit": "cuillère à soupe" }
+        { "name": "huile d'olive", "quantity": 3, "unit": "càs" },
+        { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs" }
       ],
       "steps": [
         "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
@@ -64,7 +67,7 @@
       "ingredients": [
         { "name": "pâtes", "quantity": 200, "unit": "g" },
         { "name": "tomates", "quantity": 3, "unit": "unités" },
-        { "name": "huile d'olive", "quantity": 2, "unit": "cuillères à soupe" },
+        { "name": "huile d'olive", "quantity": 2, "unit": "càs" },
         { "name": "sel", "quantity": 1, "unit": "pincée" }
       ],
       "steps": [
@@ -102,8 +105,8 @@
         { "name": "pâtes", "quantity": 250, "unit": "g" },
         { "name": "tomates cerises", "quantity": 200, "unit": "g" },
         { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
-        { "name": "huile d'olive", "quantity": 3, "unit": "cuillères à soupe" },
-        { "name": "vinaigre balsamique", "quantity": 1, "unit": "cuillère à soupe" }
+        { "name": "huile d'olive", "quantity": 3, "unit": "càs" },
+        { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs" }
       ],
       "steps": [
         "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
@@ -120,7 +123,7 @@
       "ingredients": [
         { "name": "pâtes", "quantity": 200, "unit": "g" },
         { "name": "tomates", "quantity": 3, "unit": "unités" },
-        { "name": "huile d'olive", "quantity": 2, "unit": "cuillères à soupe" },
+        { "name": "huile d'olive", "quantity": 2, "unit": "càs" },
         { "name": "sel", "quantity": 1, "unit": "pincée" }
       ],
       "steps": [
@@ -158,8 +161,8 @@
         { "name": "pâtes", "quantity": 250, "unit": "g" },
         { "name": "tomates cerises", "quantity": 200, "unit": "g" },
         { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
-        { "name": "huile d'olive", "quantity": 3, "unit": "cuillères à soupe" },
-        { "name": "vinaigre balsamique", "quantity": 1, "unit": "cuillère à soupe" }
+        { "name": "huile d'olive", "quantity": 3, "unit": "càs" },
+        { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs" }
       ],
       "steps": [
         "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
