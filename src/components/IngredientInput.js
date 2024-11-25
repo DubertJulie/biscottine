@@ -211,7 +211,7 @@ function IngredientInput() {
                                 <div className='cadreIngredientSelectioner'>
                                     <button className='buttonSuprimer' onClick={() => suprimerDeEviter(ingredient)}>
                                         X</button>
-                                    <img src={ingredient.url1}
+                                    <img src={ingredient.img}
                                         alt=''
                                         className="choixIngredientEviterImage" />
                                     <p className='textIngredientSousImg'>{ingredient.name} </p>
