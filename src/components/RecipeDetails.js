@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './RecipeDetails.css';
 import data from '../data/recipes.json';
-import React, { useRef } from "react";
+import like from '../assets/heart.svg';
+import liked from '../assets/heart-fill.svg';
+
+const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 // import recette ciblée from la page resultats ?
 // la recette qui est ciblée, à modifier en fonction de la carte qui est cliquée sur la page de résultats
-const recette = data[1];
-console.log(data[0]);
+const recette = data[0];
 
 // Function qui gère l'affichage des tags en fonction de leur contenu et leur applique un id spécifique 
 function TagList(props) {
@@ -61,22 +63,35 @@ function MesIngredients(props) {
 // If quantity = g, coller quantity et unit
 // If name commence par a, e, i, o, u, h, afficher d' au lieu de de 
 
-function addfav() {
-  const fav = true;
-  console.log("ok");
+  const addToFavorites = (id) => {
+    if (favorites.includes(id)) {
+      console.log("Favori déjà ajouté");
+    } else {
+      favorites.push(id);
+      localStorage.setItem("favorites", JSON.stringify(favorites));
+      console.log("Favoris mis à jour:", favorites);
+    }
+  };
 
-}
 
 // Function qui crée la fiche de la recette pour chaque entité du tableau data 
 export default function RecipeDetails() {    
     const tags = recette.tags;
     const ingredients = recette.ingredients;
     const steps = recette.steps;
+    const id = recette.id;
 
     return (
       <div className="RecipeDetails">
         <img src={recette.url} className="RecipeDetails-img" />
-        <div className="RecipeDetails-title-fav"><h1>{recette.title}</h1><button className="RecipeDetails-fav" onClick={handleclick}>Ajouter aux favoris</button>
+
+        <div className="RecipeDetails-title-fav">
+          <h1>{recette.title}</h1>
+
+            <button className="button-like" onClick={() => addToFavorites(id)}>
+              <img src={favorites.includes(id) ? liked : like} className="RecipeDetails-fav-like"/>
+            </button>
+
         </div>
 
         <div className="RecipeDetails-tags">
@@ -101,3 +116,4 @@ export default function RecipeDetails() {
     );
 
 }
+
