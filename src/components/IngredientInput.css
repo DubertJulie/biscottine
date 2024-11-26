@@ -4,65 +4,245 @@
 }
 
 .encadrementIngredientInput {
-    margin-top: 2%;
-    margin-left: 8.4%;
-    margin-right: 72%;
-    margin-bottom: 2%;
-    background-color: white;
-    height: 42em;
-    border-radius: 0.8em 0 0 0.8em ;
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+
+.encadrementRecherche {
+    background-color: var(--text-color-alt);
+    border-radius: 0.8em 0 0 0.8em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resultatRecherchePlat {
+    background-color: var(--whitesmoke);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    border-radius: 0 0.8em 0.8em 0;
+    padding: 1em;
+    width: 95%;
+    justify-content: center;
+}
+
+/* gere la largeur de la scrollbar  */
+.resultatRecherchePlat::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+/* gere la couleur et le radius de la scrollbar */
+.resultatRecherchePlat::-webkit-scrollbar-thumb {
+    background-color: var(--gris-clair);
+    border-radius: 1.5em;
 }
 
 .ingredientInput {
-    background-color: white;
-    border-color: gray;
-}
-.titreLogoInput{
-    width: 10em;
-    margin-left: 6.7em;
-}
-
-.biscottineMascotteInput{
-    padding-top: 10%;
-    margin-left: 9.5em;
-    width: 4em;
+    text-align: center;
+    color: gray;
+    background-color: var(--text-color-alt);
+    border-color: var(--gris-clair);
+    height: 2em;
+    width: 80%;
+    align-self: center;
+    border-radius: 2em;
 }
 
-.texteSousLogoInput{
+.titreLogoInput {
+    width: 8em;
+    align-self: center;
+}
+
+.biscottineMascotteInput {
+    width: 3em;
+    margin-top: 2em;
+    align-self: center;
+}
+
+.texteSousLogoInput {
     font-size: 1.2em;
     font-weight: 500;
-    margin-left: 7.2em
-}
-
-.ingredientInput{
-    height: 2em;
-    width: 23em;
-    border-radius: 2em;
-    margin-left: 2.6em;
-    margin-top: 2em;
-}
-
-/* taille de la scroll bar  */
-.alignementInputRecherche::-webkit-scrollbar{
-   width: 0.9em; 
-   background-color:  black;
-   
-}
-
-.alignementInputRecherche::-webkit-scrollbar-thumb{
-    background-color: gray;
-border-radius: 2em;
-}
-.alignementInputRecherche{
-    color: gray;
-    overflow-y: auto ;
-    height: 6em;
     text-align: center;
-    border: 0.1vw solid gray;
-    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+/* taille de la scroll bar , on peut lui mettre un background  */
+.alignementInputRecherche::-webkit-scrollbar {
+    width: 0.6em;
+    border-radius: 4em;
+}
+
+/* modifie la scrollbar la couleur et le raidus  */
+.alignementInputRecherche::-webkit-scrollbar-thumb {
+    background-color: var(--gris-clair);
     border-radius: 2em;
+}
+
+/* gere la barre de recherche, la couleur du texte Et le fait qu'il y une scroll bar  */
+.alignementInputRecherche {
+    color: var(--text-color);
+    overflow-y: auto;
+    border: 0.1vw solid var(--gris-clair);
+    height: auto;
+    margin-top: 0.2em;
+    border-radius: 1em;
     width: 19.5em;
     margin-left: 2em;
 }
 
+/* les ingredient dans la barre de recherche  */
+.ingredientRechercheInput {
+    padding: 0.2vh;
+    list-style-type: none;
+}
 
+/* button + pour garder les ingredient */
+.buttonGarder {
+    background-color: var(--ingredients-selected);
+    border: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 8em;
+    color: var(--text-color);
+    margin: auto;
+    margin-right: 0.2em;
+}
+
+/* button - pour eviter les ingredient  */
+.buttonEviter{
+    background-color: var(--ingredients-avoided);
+    border: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.5em;
+    border-radius: 8em;
+    color: var(--text-color-alt);
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Permet l'effet au survole gris dans la barre de recherche */
+.placementInputIngredient:hover{
+    background-color: var(--gris-clair);
+    width: 17.8em;
+    border-radius: 2em;
+}
+
+/* placement dans la barre de recherche  */
+.placementInputIngredient{
+    display: flex;
+    padding-left: 1em;
+    justify-content: space-between;
+}
+
+/* image es ingredient choisie  */
+.choixIngredientImage{
+    width: 5vh;
+    height: 5vh;
+    object-fit: contain;
+    background-color: var(--ingredients-selected);
+    padding: 1vh;
+    border-radius: 0.8em;
+}
+
+.choixIngredientEviterImage{
+    width: 5vh;
+    height: 5vh;
+    object-fit: contain;
+    background-color: var(--ingredients-avoided);
+    padding: 1vh;
+    border-radius: 0.8em;
+}
+
+.encadrementAEviter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    direction: rtl;
+    font-size: 1em;
+}
+
+/* gere le boutton suprimer des ingredient selectioner */
+.buttonSuprimer{
+    color: var(--text-color-alt);
+    padding: 0.1em;
+    padding-right: 0.5vh;
+    padding-left: 0.5vh;
+    background-color: var(--text-color);
+    border: transparent;
+    border-radius: 8em;
+}
+
+.encradrementGarderIngredient{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    direction: rtl;
+    margin-left: 1em;
+    margin-top: 2vh;
+}
+
+.ingredientSelectionnerGarder{
+    text-align: center;
+    width: 7vh;
+    border-radius: 0.8em;
+    margin-left: 0.5vh;
+}
+
+.textIngredientSelect{
+font-weight: 600;
+padding-left: 2vh;
+}
+
+.textIngredientSousImg{
+font-size: 0.9em;
+margin-bottom: 2vh;
+}
+
+.cadreIngredientSelectioner{
+    margin-top: 10px;
+}
+
+.tagFilter {
+    width:90%;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.tagFilterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+}
+
+.tagButton {
+    background-color: var(--gris-clair); /* Couleur par défaut */
+    color: var(--text-color-alt);
+    border-radius: 1em;
+    padding: 0.3em 0.8em;
+    margin: 0.2em;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.tagButton:active {
+    background-color: var(--tag1); /* Couleur par défaut */
+    color: var(--text-color-alt);
+    border-radius: 1em;
+    padding: 0.3em 0.8em;
+    margin: 0.2em;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.resultatRecherchePlat a {
+    text-decoration: none;
+    margin-bottom: -0.25em;
+}

@@ -1,3 +1,7 @@
+import './header.css';
+import LogoHeader from '../assets/logo.png';
+import mascotteHeader from '../assets/mascotte.png';
+import { Link } from "react-router-dom";
 
 import './header.css';
 
@@ -13,24 +17,20 @@ function Header() {
 
     return (
 
-        // Comencement du Header 
-        <headers className='encadrementHeader'>
+        <header className='encadrementHeader'>
             <div className='encadrementTete'>
-                <img className='mascotteHeader' src={mascotteHeader} alt='' />
-                <img className='logoHeader' src={LogoHeader} alt='' />
-                <ul className='headerlist'>
-
-                    {/* Lien a ajouter  */}
-                    <a className='hedearRecette' href="##">
-                        <ol >Toute les recettes</ol></a>
-                    {/* Lien a mettre  */}
-                    <a className='headerFavoris' href="##"><ol >Mes recettes ♥</ol></a>
-
-
-                </ul>
+                <div>
+                <Link to="/"><img className='mascotteHeader' src={mascotteHeader} alt='' /></Link>
+                <Link to="/"><img className='logoHeader' src={LogoHeader} alt='' /></Link>
+                </div>
+                
+                <div className='headerlist'>
+                    <Link to="/">Toutes les recettes</Link>
+                    <Link to="/favorites">Mes recettes ♥</Link>
+                </div>
 
             </div>
-        </headers>
+        </header>
 
     )
 };

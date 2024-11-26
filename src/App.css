@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  --background-color: #006C55;
+  --idea-color: #00493A; /* couleur du bouton "pas d'idée" */
+  --text-color: black;
+  --text-color-alt: white;
+  --tag1: #FF5555; /* tag min */
+  --tag2: #69C6BE; /* tag cuisine coréenne */
+  --tag3: #C1C641; /* tag cuisine japonaise */
+  --tag4: #CF6464; /* cuisine italienne */
+  --ingredients-selected: #93C976; /* ingrédients sélectionnés */
+  --ingredients-avoided: #FF7070; /* ingrédients à éviter */
+  --gris-clair: rgb(210, 209, 209);
+  --whitesmoke: whitesmoke;
+  /* Ajouter les couleurs de texte noir & blanc */
+
+}
+
+.dark-mode {
+  /* Mode sombre */
+  --background-color: #1E1E1E;
+  --idea-color: #333333;
+  --text-color: white;
+  --text-color-alt: black;
+  --tag1: #FF6F6F;
+  --tag2: #4CA6A6;
+  --tag3: #B8C94A;
+  --tag4: #C36F6F;
+  --ingredients-selected: #76B065;
+  --ingredients-avoided: #FF8A8A;
+  --gris-clair: #4F4F4F;
+  --whitesmoke: #2F2F2F;
 }

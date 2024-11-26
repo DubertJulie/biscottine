@@ -1,0 +1,60 @@
+/* Container des recettes */
+.RecipeResults {
+}
+
+/* Carte des recettes */
+.RecipeResults-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 20%;
+}
+
+/* Dans la carte des recettes, image de la recette */
+.RecipeResults-card-img {
+    border-radius: 0.8em 0.8em 0 0; 
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+/* Dans la carte des recettes, image de la recette */
+.RecipeResults-card-info {
+    border-radius: 0 0 0.8em 0.8em; 
+    background-color: #12954D;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 1.2em;
+    word-break: normal;
+}
+
+/* Id spéciaux pour le background des cartes */
+#min {
+    background-color: var(--tag1);
+}
+
+#coreenne {
+    background-color: var(--tag2);
+}
+
+#japonaise {
+    background-color: var(--tag3);
+}
+
+#italienne {
+    background-color: var(--tag4);
+}
+
+/* Dans la carte des recettes, titre de la recette */
+.RecipeResults-card-title {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+/* Dans la carte des recettes, temps de préparation */
+.RecipeResults-card-preparation {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
