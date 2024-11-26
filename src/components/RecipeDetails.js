@@ -2,13 +2,14 @@ import React, { useEffect } from 'react';
 import './RecipeDetails.css';
 import data from '../data/recipes.json';
 import like from '../assets/heart.svg';
-import liked from '../assets/heart-fill.svg';
+import liked from '../assets/heart-fill.svg'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
 
 const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-// import recette ciblée from la page resultats ?
-// la recette qui est ciblée, à modifier en fonction de la carte qui est cliquée sur la page de résultats
-const recette = data[0];
 
 // Function qui gère l'affichage des tags en fonction de leur contenu et leur applique un id spécifique 
 function TagList(props) {
@@ -18,16 +19,16 @@ function TagList(props) {
     return (<div className="RecipeDetails-tag" id="min">Moins de {props.tag}</div>)
     break;
 
-    case "Cuisine coréenne":
-    return (<div className="RecipeDetails-tag" id="coreenne">{props.tag}</div>)
+    case "Sucré":
+    return (<div className="RecipeDetails-tag" id="sucre">{props.tag}</div>)
     break;
 
-    case "Cuisine italienne": 
-    return (<div className="RecipeDetails-tag" id="italienne">{props.tag}</div>)
+    case "Salé": 
+    return (<div className="RecipeDetails-tag" id="sale">{props.tag}</div>)
     break;
 
-    case "Cuisine japonaise": 
-    return (<div className="RecipeDetails-tag" id="japonaise">{props.tag}</div>)
+    case "Petit-déjeuner": 
+    return (<div className="RecipeDetails-tag" id="petit-dej">{props.tag}</div>)
     break;
 
     default: 
@@ -65,24 +66,34 @@ function MesIngredients(props) {
 
   const addToFavorites = (id) => {
     if (favorites.includes(id)) {
-      console.log("Favori déjà ajouté");
+      const updatedFavorites = favorites.filter(favoriteId => favoriteId !== id); // Supprime l'id
+        localStorage.setItem("favorites", JSON.stringify(updatedFavorites)); // Met à jour localStorage
+        console.log("Favori retiré:", updatedFavorites);
     } else {
       favorites.push(id);
       localStorage.setItem("favorites", JSON.stringify(favorites));
       console.log("Favoris mis à jour:", favorites);
     }
+    window.location.reload();
+
   };
 
 
 // Function qui crée la fiche de la recette pour chaque entité du tableau data 
 export default function RecipeDetails() {    
+  const { id } = useParams(); 
+
+  // la recette qui est ciblée, à modifier en fonction de la carte qui est cliquée sur la page de résultats
+  const recette = data.find((recette) => recette.id === parseInt(id));;
     const tags = recette.tags;
     const ingredients = recette.ingredients;
     const steps = recette.steps;
-    const id = recette.id;
 
     return (
+      <>
       <div className="RecipeDetails">
+      <Link to={'..'}><img src="/assets/arrow.png" alt="Retour" className="arrow" /></Link>
+
         <img src={recette.url} className="RecipeDetails-img" />
 
         <div className="RecipeDetails-title-fav">
@@ -113,6 +124,7 @@ export default function RecipeDetails() {
               ))}
           </div>
       </div>
+      </>
     );
 
 }

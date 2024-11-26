@@ -3,19 +3,27 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: 80vh;
+    margin: auto;
+    background-color: var(--text-color-alt);
+    border-radius: 1.2em;
+    overflow: auto;
 }
 
 .RecipeDetails-title-fav {
+    padding-left: 2em;
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Image de la recette */
 .RecipeDetails-img {
     border-radius: 0.8em; 
     width: 50%;
+    margin: 1em 0 1em 2em;
     height: 40vh;
     object-fit: cover;
 }
@@ -34,6 +42,7 @@
 /* Div qui contient tous les tags */
 .RecipeDetails-tags {
     display: flex;
+    padding-left: 2em;
     flex-direction: row;
     gap: 0.2em;
 }
@@ -51,20 +60,21 @@
     background-color: var(--tag1);
 }
 
-#coreenne {
+#sucre {
     background-color: var(--tag2);
 }
 
-#japonaise {
+#sale {
     background-color: var(--tag3);
 }
 
-#italienne {
+#petit-dej {
     background-color: var(--tag4);
 }
 
 /* Div qui contient les ingrédients */
 .RecipeDetails-ing-container {
+    padding-left: 2em;
     display: flex;
     flex-direction: row;
     margin-top: 1em;
@@ -83,14 +93,22 @@
 
 .RecipeDetails-ingredient-img {
     width: auto;
-    background-color: whitesmoke;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background-color: var(--whitesmoke);
     border-radius: 0.8em;
     padding: 0.5em;
 }
 
+.RecipeDetails h2 {
+    margin: 2em 0 2em 2em;
+}
+
 /* Recette */
 .RecipeDetails-steps {
+    padding-left: 2em;
     margin-left: 2em;
+    margin-bottom: 6em;
 }
 
 .RecipeDetails-step {
@@ -103,4 +121,21 @@
     font-size: 1em;
     letter-spacing: 0.2em;
     color: gray;
+}
+
+.arrow {
+    width: 2em;
+    margin: 1em;
+}
+
+/* gere la largeur de la scrollbar  */
+.resultatRecherchePlat::-webkit-scrollbar {
+    width: 0.6em;
+    margin-left: -0.6em;
+}
+
+/* gere la couleur et le radius de la scrollbar */
+.resultatRecherchePlat::-webkit-scrollbar-thumb {
+    background-color: var(--gris-clair);
+    border-radius: 1.5em;
 }

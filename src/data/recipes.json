@@ -1,178 +1,337 @@
 [
-    {
-      "id": 1,  
-      "title": "Pâtes à la tomate",
-      "url": "assets/recipe2.jpg",
-      "preparation_time": "20 minutes",
-      "tags": [ "30 minutes", "Cuisine italienne" ], 
-      "ingredients": [
-        { "name": "pâtes", "quantity": 200, "unit": "g", "img": "assets/ail.png" },
-        { "name": "tomates", "quantity": 3, "unit": "", "img": "assets/ail.png"},
-        { "name": "huile d'olive", "quantity": 2, "unit": "càs", "img": "assets/ail.png" },
-        { "name": "sel", "quantity": 1, "unit": "pincée", "img": "assets/ail.png"}
-      ],
-      "steps": [
-        "Faites bouillir une casserole d'eau salée.",
-        "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
-        "Pendant ce temps, coupez les tomates en morceaux.",
-        "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
-        "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
-        "Servez chaud."
-      ]
-    },
-    {
-      "id": 2,  
-      "title": "Omelette nature",
-      "url": "assets/recipe.jpg",
-      "preparation_time": "10 minutes",
-      "tags": [ "30 minutes", "Cuisine coréenne" ], 
-      "ingredients": [
-        { "name": "œufs", "quantity": 3, "unit": "unités" },
-        { "name": "beurre", "quantity": 10, "unit": "g" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" },
-        { "name": "poivre", "quantity": 1, "unit": "pincée" }
-      ],
-      "steps": [
-        "Cassez les œufs dans un bol et battez-les avec une fourchette.",
-        "Ajoutez le sel et le poivre selon votre goût.",
-        "Faites fondre le beurre dans une poêle à feu moyen.",
-        "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
-        "Pliez l'omelette en deux et servez."
-      ],
-      "favorite": true
-    },
-    {
-      "id": 3,  
-      "title": "Salade de pâtes au basilic",
-      "url": "assets/recipe3.jpg",
-      "preparation_time": "25 minutes",
-      "ingredients": [
-        { "name": "pâtes", "quantity": 250, "unit": "g" },
-        { "name": "tomates cerises", "quantity": 200, "unit": "g" },
-        { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
-        { "name": "huile d'olive", "quantity": 3, "unit": "càs" },
-        { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs" }
-      ],
-      "steps": [
-        "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
-        "Égouttez-les et laissez-les refroidir.",
-        "Coupez les tomates cerises en deux.",
-        "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
-        "Servez frais."
-      ]
-    },
-    {
-      "title": "Pâtes à la tomate",
-      "url": "assets/recipe2.jpg",
-      "preparation_time": "20 minutes",
-      "tags": [ "30 minutes", "Cuisine italienne" ], 
-      "ingredients": [
-        { "name": "pâtes", "quantity": 200, "unit": "g" },
-        { "name": "tomates", "quantity": 3, "unit": "unités" },
-        { "name": "huile d'olive", "quantity": 2, "unit": "càs" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" }
-      ],
-      "steps": [
-        "Faites bouillir une casserole d'eau salée.",
-        "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
-        "Pendant ce temps, coupez les tomates en morceaux.",
-        "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
-        "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
-        "Servez chaud."
-      ]
-    },
-    {
-      "title": "Omelette nature",
-      "url": "assets/recipe.jpg",
-      "preparation_time": "10 minutes",
-      "ingredients": [
-        { "name": "œufs", "quantity": 3, "unit": "unités" },
-        { "name": "beurre", "quantity": 10, "unit": "g" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" },
-        { "name": "poivre", "quantity": 1, "unit": "pincée" }
-      ],
-      "steps": [
-        "Cassez les œufs dans un bol et battez-les avec une fourchette.",
-        "Ajoutez le sel et le poivre selon votre goût.",
-        "Faites fondre le beurre dans une poêle à feu moyen.",
-        "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
-        "Pliez l'omelette en deux et servez."
-      ]
-    },
-    {
-      "title": "Salade de pâtes au basilic",
-      "url": "assets/recipe3.jpg",
-      "preparation_time": "25 minutes",
-      "ingredients": [
-        { "name": "pâtes", "quantity": 250, "unit": "g" },
-        { "name": "tomates cerises", "quantity": 200, "unit": "g" },
-        { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
-        { "name": "huile d'olive", "quantity": 3, "unit": "càs" },
-        { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs" }
-      ],
-      "steps": [
-        "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
-        "Égouttez-les et laissez-les refroidir.",
-        "Coupez les tomates cerises en deux.",
-        "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
-        "Servez frais."
-      ]
-    },{
-      "title": "Pâtes à la tomate",
-      "url": "assets/recipe2.jpg",
-      "preparation_time": "20 minutes",
-      "tags": [ "30 minutes", "Cuisine italienne" ], 
-      "ingredients": [
-        { "name": "pâtes", "quantity": 200, "unit": "g" },
-        { "name": "tomates", "quantity": 3, "unit": "unités" },
-        { "name": "huile d'olive", "quantity": 2, "unit": "càs" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" }
-      ],
-      "steps": [
-        "Faites bouillir une casserole d'eau salée.",
-        "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
-        "Pendant ce temps, coupez les tomates en morceaux.",
-        "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
-        "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
-        "Servez chaud."
-      ]
-    },
-    {
-      "title": "Omelette nature",
-      "url": "assets/recipe.jpg",
-      "preparation_time": "10 minutes",
-      "ingredients": [
-        { "name": "œufs", "quantity": 3, "unit": "unités" },
-        { "name": "beurre", "quantity": 10, "unit": "g" },
-        { "name": "sel", "quantity": 1, "unit": "pincée" },
-        { "name": "poivre", "quantity": 1, "unit": "pincée" }
-      ],
-      "steps": [
-        "Cassez les œufs dans un bol et battez-les avec une fourchette.",
-        "Ajoutez le sel et le poivre selon votre goût.",
-        "Faites fondre le beurre dans une poêle à feu moyen.",
-        "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
-        "Pliez l'omelette en deux et servez."
-      ]
-    },
-    {
-      "title": "Salade de pâtes au basilic",
-      "url": "assets/recipe3.jpg",
-      "preparation_time": "25 minutes",
-      "ingredients": [
-        { "name": "pâtes", "quantity": 250, "unit": "g" },
-        { "name": "tomates cerises", "quantity": 200, "unit": "g" },
-        { "name": "basilic frais", "quantity": 10, "unit": "feuilles" },
-        { "name": "huile d'olive", "quantity": 3, "unit": "càs" },
-        { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs" }
-      ],
-      "steps": [
-        "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
-        "Égouttez-les et laissez-les refroidir.",
-        "Coupez les tomates cerises en deux.",
-        "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
-        "Servez frais."
-      ]
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Bowl aux patates douces",
+    "url": "/assets/patatesdouces.jpg",
+    "preparation_time": "20 minutes",
+    "tags": [ "Salé" ], 
+    "ingredients": [
+      { "name": "pates","quantity": 200, "unit": "g", "img": "/assets/patte.png" },
+      { "name": "tomates", "quantity": 3, "unit": "", "img": "/assets/tomate.png"},
+      { "name": "huile d'olive", "quantity": 2, "unit": "càs", "img": "/assets/Huiledolive.png" },
+      { "name": "sel", "quantity": 1, "unit": "pincée", "img": "/assets/sel.png"}
+    ],
+    "steps": [
+      "Faites bouillir une casserole d'eau salée.",
+      "Ajoutez les pâtes et faites-les cuire selon les instructions du paquet.",
+      "Pendant ce temps, coupez les tomates en morceaux.",
+      "Dans une poêle, faites chauffer l'huile d'olive et ajoutez les tomates.",
+      "Égouttez les pâtes et mélangez-les avec les tomates dans la poêle.",
+      "Servez chaud."
+    ],
+    "favorite": true
+  },
+  {
+    "id": 2,
+    "title": "Omelette nature",
+    "url": "/assets/omelette.jpg",
+    "preparation_time": "10 minutes",
+    "tags": [ "30 minutes"], 
+    "ingredients": [
+      { "name": "oeufs", "quantity": 3, "unit": "unités", "img": "/assets/oeuf.png"  },
+      { "name": "beurre", "quantity": 10, "unit": "g", "img": "/assets/Beurre.png"  },
+      { "name": "sel", "quantity": 1, "unit": "pincée", "img": "/assets/sel.png"  },
+      { "name": "poivre", "quantity": 1, "unit": "pincée", "img": "/assets/Poivre.png"  }
+    ],
+    "steps": [
+      "Cassez les œufs dans un bol et battez-les avec une fourchette.",
+      "Ajoutez le sel et le poivre selon votre goût.",
+      "Faites fondre le beurre dans une poêle à feu moyen.",
+      "Versez les œufs battus dans la poêle et laissez cuire quelques minutes.",
+      "Pliez l'omelette en deux et servez."
+    ],
+    "favorite": true
+  },
+  {
+    "id": 3,
+    "title": "Salade de pâtes au basilic",
+    "url": "/assets/pastasalad.jpg",
+    "preparation_time": "25 minutes",
+    "tags": [ "30 minutes" ], 
+    "ingredients":[
+      { "name": "pates", "quantity": 250, "unit": "g", "img": "/assets/patte.png"  },
+      { "name": "tomates cerises", "quantity": 200, "unit": "g", "img": "/assets/tomCerise.png"  },
+      { "name": "basilic frais", "quantity": 10, "unit": "feuilles", "img": "/assets/basilic.png"  },
+      { "name": "huile d'olive", "quantity": 3, "unit": "càs", "img": "/assets/Huiledolive.png"  },
+      { "name": "vinaigre balsamique", "quantity": 1, "unit": "càs", "img": "/assets/vinaigreBalsa.png"  }
+    ],
+    "steps":[
+      "Faites cuire les pâtes dans une casserole d'eau bouillante salée.",
+      "Égouttez-les et laissez-les refroidir.",
+      "Coupez les tomates cerises en deux.",
+      "Dans un saladier, mélangez les pâtes, les tomates, le basilic, l'huile d'olive et le vinaigre balsamique.",
+      "Servez frais."
+    ]
+  },{
+    "id": 4,
+    "title": "Bowl",
+    "url": "/assets/bowl.jpg",
+    "preparation_time": "30 minutes",
+    "tags": ["Petit-déjeuner"],
+    "ingredients": [
+      { "name": "pommes de terre", "quantity": 4, "unit": "", "img": "/assets/patate.png" },
+      { "name": "épinards frais", "quantity": 2, "unit": "tasses", "img": "/assets/Epinard.png" },
+      { "name": "avocat", "quantity": 1, "unit": "", "img": "/assets/avocat.png" },
+      { "name": "oeufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "fromage râpé", "quantity": 50, "unit": "g", "img": "/assets/fromageRapée.png"},
+      { "name": "huile d'olive", "quantity": 2, "unit": "càs", "img": "/assets/Huiledolive.png"},
+      { "name": "sel", "quantity": 1, "unit": "pincée", "img": "/assets/sel.png" },
+      { "name": "poivre", "quantity": 1, "unit": "pincée", "img": "/assets/poivre.png" }
+    ],
+    "steps": [
+      "Préchauffez le four à 200°C (400°F).",
+      "Coupez les pommes de terre en dés et disposez-les sur une plaque de cuisson. Arrosez d'huile d'olive, salez, poivrez, et faites cuire pendant 25 minutes, en remuant à mi-cuisson.",
+      "Pendant ce temps, faites revenir les épinards dans une poêle avec un filet d'huile d'olive jusqu'à ce qu'ils soient fondants.",
+      "Faites cuire les œufs selon votre préférence (brouillés, pochés ou au plat).",
+      "Dans un bol, assemblez les pommes de terre rôties, les épinards, l'avocat coupé en tranches, et les œufs.",
+      "Ajoutez le fromage râpé par-dessus et servez chaud."
+    ]
+  },{
+    "id": 5,
+    "title": "Pancakes Moelleux",
+    "url": "/assets/pancake.jpg",
+    "preparation_time": "25 minutes",
+    "tags": ["Petit-déjeuner", "Sucré"],
+    "ingredients": [
+      { "name": "farine", "quantity": 200, "unit": "g", "img": "/assets/Farine.png" },
+      { "name": "lait", "quantity": 250, "unit": "ml", "img": "/assets/milk.png" },
+      { "name": "oeufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "levure", "quantity": 1, "unit": "càc", "img": "/assets/levure.png" },
+      { "name": "sucre", "quantity": 2, "unit": "càs", "img": "/assets/sucre.png" },
+      { "name": "beurre", "quantity": 50, "unit": "g", "img": "/assets/Beurre.png" },
+      { "name": "sirop d'érable", "quantity": 4, "unit": "càs", "img": "/assets/sirop.png" },
+      { "name": "sel", "quantity": 1, "unit": "", "img": "/assets/sel.png" }
+    ],
+    "steps": [
+      "Dans un grand bol, mélangez la farine, le sucre, la levure et le sel.",
+      "Dans un autre bol, fouettez les œufs et le lait, puis ajoutez le beurre fondu.",
+      "Incorporez les ingrédients humides aux ingrédients secs et mélangez jusqu'à obtenir une pâte lisse.",
+      "Chauffez une poêle antiadhésive à feu moyen et graissez-la légèrement avec du beurre.",
+      "Versez la pâte dans la poêle pour former des pancakes, cuisez jusqu'à ce que des bulles apparaissent à la surface, puis retournez et cuisez jusqu'à ce qu'ils soient dorés.",
+      "Servez chaud avec du beurre et du sirop d'érable."
+    ]
+  },{
+    "id": 6,
+    "title": "Gaufres à la banane",
+    "url": "/assets/gauffrebanane.jpg",
+    "preparation_time": "30 minutes",
+    "tags": ["Petit-déjeuner", "Sucré"],
+    "ingredients": [
+      { "name": "farine", "quantity": 250, "unit": "g", "img": "/assets/Farine.png" },
+      { "name": "lait", "quantity": 300, "unit": "ml", "img": "/assets/milk.png" },
+      { "name": "œufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "sucre", "quantity": 50, "unit": "g", "img": "/assets/sucre.png" },
+      { "name": "beurre", "quantity": 100, "unit": "g", "img": "/assets/Beurre.png" },
+      { "name": "levure", "quantity": 1, "unit": "càc", "img": "/assets/levure.png" },
+      { "name": "banane", "quantity": 1, "unit": "", "img": "/assets/banane.png" },
+      { "name": "chocolat", "quantity": 50, "unit": "g", "img": "/assets/chocolat.png" }
+    ],
+    "steps": [
+      "Dans un bol, mélangez la farine, le sucre et la levure chimique.",
+      "Ajoutez les œufs et le lait, puis mélangez jusqu'à obtenir une pâte lisse.",
+      "Incorporez le beurre fondu à la pâte.",
+      "Faites chauffer le gaufrier et versez-y une portion de pâte. Faites cuire jusqu'à ce que la gaufre soit dorée.",
+      "Garnissez la gaufre de tranches de banane et arrosez de chocolat fondu.",
+      "Servez chaud et dégustez."
+    ]
+  },{
+    "id": 7,
+    "title": "Bol de Petit-Déjeuner",
+    "url": "/assets/BolLegume.jpg",
+    "preparation_time": "30 minutes",
+    "tags": ["Petit-déjeuner", "Salé"],
+    "ingredients": [
+      { "name": "pommes de terre", "quantity": 200, "unit": "g", "img": "/assets/pommes.png" },
+      { "name": "avocat", "quantity": 1, "unit": "", "img": "/assets/avocat.png" },
+      { "name": "œuf", "quantity": 1, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "épinards frais", "quantity": 50, "unit": "g", "img": "/assets/epinards.png" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "càs", "img": "/assets/huile.png" },
+      { "name": "sel", "quantity": 1, "unit": "pincée", "img": "/assets/sel.png" },
+      { "name": "poivre", "quantity": 1, "unit": "pincée", "img": "/assets/poivre.png" }
+    ],
+    "steps": [
+      "Coupez les pommes de terre en petits morceaux et faites-les rôtir avec de l'huile d'olive, du sel et du poivre pendant 20 minutes.",
+      "Coupez l'avocat en fines tranches.",
+      "Faites cuire un œuf au plat à feu doux.",
+      "Disposez des épinards frais dans un bol, ajoutez les pommes de terre rôties, l'avocat et l'œuf par-dessus.",
+      "Assaisonnez selon votre goût et servez."
+    ]
+  },{
+    "id": 8,
+    "title": "Toasts francais aux oeufs",
+    "url": "/assets/toastfr.jpg",
+    "preparation_time": "20 minutes",
+    "tags": ["Salé" ], 
+    "ingredients": [
+      { "name": "beurre salé", "quantity": "2" , "unit": "càs", "img": "/assets/Beurre.png" },
+      { "name": "tranche de pain", "quantity": 2, "unit": "", "img": "/assets/pain.png"},
+      { "name": "crème épaisse", "quantity": 12, "unit": "tasse", "img": "/assets/creme.png" },
+      { "name": "sel", "quantity": 1, "unit": "pincée", "img": "/assets/sel.png"},
+      { "name": "poivre", "quantity": 1, "unit": "pincée", "img": "/assets/poivre.png"},
+      { "name": "oeufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png"} ,
+      { "name": "ciboulette", "quantity": 1, "unit": "pincée", "img": "/assets/ciboulette.png"}
+    ],
+    "steps": [
+      "Préchauffer la poêle à feu doux.",
+     
+      "Préchauffer le four à chaleur tournante à 180° ( facultatif)",
   
+      "Beurrer chaque morceau de pain des deux côtés à l'aide d'un couteau à beurre.",
+  
+      "Cuire jusqu'à ce que la tranche soit bien dorée. Répétez l'opération avec l'autre tranche de pain, puis mettre les tranches de pain côte à côte dans la poêle.",
+
+      "Verser la crème dans une petite casserole avec l'ail et la feuille de laurier, puis porter à ébullition. Assaisonner avec sel et poivre et laisser mijoter pendant environ 5 minutes.",
+     
+      "Retirez la feuille de laurier et l'ail. Verser deux cuillères à soupe de crème chaude sur chaque tranche de pain.",
+
+      "Casser avec précaution deux œufs sur chaque morceaux de pain, en prenant bien soin de ne pas casser les jaunes. Versez la crème restante sur les œufs, puis mettre au four.",
+      
+      "(si vous n'avez pas de poêle qui passe au four, vous pouvez laisser cuire a feu moyen et couvrir simplement)",
+      
+      "Cuire environs 8 minutes jusqu'à ce que le blanc d'œuf devient opaque, mais les jaunes doivent rester coulant.",
+      
+      "Saupoudrer de ciboulette et poivre plus fraîchement moulu si désiré. Servir immédiatement."
+    ],
+    "favorite": true
+  },{
+    "id": 9,
+    "title": "Croissant jambon",
+    "url": "/assets/croissant.jpg",
+    "preparation_time": "15 minutes",
+    "tags": [ "Petit-déjeuner"],
+    "ingredients": [
+      { "name": "croissants", "quantity": 4, "unit": "", "img": "/assets/croissan.png" },
+      { "name": "jambon", "quantity": 4, "unit": "tranches", "img": "/assets/jambon.png" },
+      { "name": "fromage râpé", "quantity": 100, "unit": "g", "img": "/assets/fromage.png" },
+      { "name": "beurre", "quantity": 20, "unit": "g", "img": "/assets/beurre.png" }
+    ],
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Coupez les croissants en deux.",
+      "Ajoutez une tranche de jambon et du fromage râpé à l'intérieur de chaque croissant.",
+      "Refermez les croissants, déposez-les sur une plaque et parsemez du fromage râpé par-dessus.",
+      "Enfournez pendant 5 à 10 minutes jusqu'à ce que le fromage soit fondu."
+    ]
+  }, 
+  {
+    "id": 10,
+    "title": "Sandwich Bagel à l'Avocat",
+    "url": "/assets/SandwichAvocat.jpg",
+    "preparation_time": "20 minutes",
+    "tags": ["Petit-déjeuner"],
+    "ingredients": [
+      { "name": "bagels", "quantity": 2, "unit": "", "img": "/assets/Bagel.png" },
+      { "name": "avocat", "quantity": 1, "unit": "", "img": "/assets/avocat.png" },
+      { "name": "oeufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "brie", "quantity": 50, "unit": "g", "img": "/assets/brie.png" },
+      { "name": "épinards", "quantity": 50, "unit": "g", "img": "/assets/epinards.png" },
+      { "name": "beurre", "quantity": 10, "unit": "g", "img": "/assets/beurre.png" },
+      { "name": "sel", "quantity": 1, "unit": "pincée", "img": "/assets/sel.png" },
+      { "name": "poivre", "quantity": 1, "unit": "pincée", "img": "/assets/poivre.png" }
+    ],
+    "steps": [
+      "Toastez les bagels jusqu'à ce qu'ils soient dorés.",
+      "Écrasez l'avocat et étalez-le uniformément sur la moitié inférieure de chaque bagel.",
+      "Faites frire les œufs dans du beurre à feu moyen jusqu'à ce que le jaune soit cuit à votre goût.",
+      "Étalez le fromage à tartiner sur la moitié supérieure de chaque bagel.",
+      "Ajoutez une couche d'épinards frais sur l'avocat écrasé, puis placez l'œuf frit par-dessus.",
+      "Assaisonnez avec du sel et du poivre à votre goût, puis refermez le sandwich avec la partie supérieure du bagel.",
+      "Servez immédiatement et dégustez !"
+    ]
+  },{
+    "id": 11,
+    "title": "Brownie au Chocolat",
+    "url": "/assets/brownie.jpg",
+    "preparation_time": "35 minutes",
+    "tags": ["Dessert"],
+    "ingredients": [
+      { "name": "chocolat noir", "quantity": 200, "unit": "g", "img": "/assets/chocolat.png" },
+      { "name": "beurre", "quantity": 150, "unit": "g", "img": "/assets/beurre.png" },
+      { "name": "sucre", "quantity": 150, "unit": "g", "img": "/assets/sucre.png" },
+      { "name": "farine", "quantity": 100, "unit": "g", "img": "/assets/farine.png" },
+      { "name": "oeufs", "quantity": 3, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "noix", "quantity": 100, "unit": "g", "img": "/assets/Noix.png" }
+    ],
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Faites fondre le chocolat noir et le beurre au bain-marie ou au micro-ondes.",
+      "Dans un bol, mélangez les œufs et le sucre jusqu'à ce que le mélange soit mousseux.",
+      "Ajoutez le chocolat fondu et mélangez bien.",
+      "Incorporez la farine petit à petit et mélangez jusqu'à obtenir une pâte homogène.",
+      "Ajoutez les noix concassées à la pâte et mélangez légèrement.",
+      "Versez la pâte dans un moule beurré et fariné.",
+      "Enfournez pendant 20 à 25 minutes. Le brownie doit rester fondant à l'intérieur.",
+      "Laissez refroidir avant de découper et de servir."
+    ]
+  },{
+    "id": 12,
+    "title": "Millionaire's Bacon avec Œuf",
+    "url": "/assets/oeufbacon.jpg",
+    "preparation_time": "35 minutes",
+    "tags": ["Petit-déjeuner"],
+    "ingredients": [
+      { "name": "bacon", "quantity": 8, "unit": "tranches", "img": "/assets/bacon.png" },
+      { "name": "poivre noir", "quantity": 1, "unit": "cuillère à café", "img": "/assets/poivre.png" },
+      { "name": "paprika", "quantity": 1, "unit": "pincée", "img": "/assets/paprika.png" },
+      { "name": "oeufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "beurre", "quantity": 10, "unit": "g", "img": "/assets/beurre.png" }
+    ],
+    "steps": [
+      "Préchauffez le four à 190°C et placez une grille de cuisson sur une plaque à pâtisserie recouverte de papier sulfurisé.",
+      "Assaisonnez les tranches de bacon avec le poivre noir et le paprika fumé.",
+      "Disposez le bacon sur la grille et faites cuire au four pendant environ 20 à 25 minutes, jusqu'à ce que le bacon soit croustillant.",
+      "Pendant ce temps, faites chauffer le beurre dans une poêle et cassez-y les œufs. Faites cuire les œufs au plat jusqu'à ce que les blancs soient bien cuits et que le jaune reste légèrement coulant.",
+      "Servez le bacon croustillant avec les œufs au plat pour un mélange délicieux et équilibré."
+    ]
+  },{
+    "id": 14,
+    "title": "Muffins au Chocolat",
+    "url": "/assets/Muffin.jpg",
+    "preparation_time": "30 minutes",
+    "tags": ["Dessert"],
+    "ingredients": [
+      { "name": "farine", "quantity": 150, "unit": "g", "img": "/assets/Farine.png" },
+      { "name": "cacao", "quantity": 50, "unit": "g", "img": "/assets/cacao.png" },
+      { "name": "sucre", "quantity": 150, "unit": "g", "img": "/assets/sucre.png"},
+      { "name": "oeufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png"},
+      { "name": "beurre fondu", "quantity": 100, "unit": "g", "img": "/assets/beurre.png"},
+      { "name": "lait", "quantity": 120, "unit": "ml", "img": "/assets/milk.png" },
+      { "name": "chocolat", "quantity": 100, "unit": "g", "img": "/assets/chocolat.png"},
+      { "name": "levure", "quantity": 1, "unit": "cuillère à café", "img": "/assets/levure.png"},
+      { "name": "extrait de vanille", "quantity": 1, "unit": "cuillère à café", "img": "/assets/vanille.png"}
+    ],
+    "steps": [
+      "Préchauffez le four à 180°C et préparez un moule à muffins en le garnissant de caissettes en papier.",
+      "Dans un bol, mélangez la farine, le cacao en poudre, le sucre et la levure chimique.",
+      "Dans un autre bol, fouettez les œufs, le lait, le beurre fondu et l'extrait de vanille.",
+      "Incorporez les ingrédients liquides aux ingrédients secs et mélangez jusqu'à obtenir une pâte homogène.",
+      "Ajoutez les pépites de chocolat à la pâte et mélangez légèrement.",
+      "Répartissez la pâte dans les caissettes à muffins en remplissant aux deux tiers.",
+      "Enfournez pendant 18 à 20 minutes ou jusqu'à ce qu'un cure-dent inséré au centre en ressorte propre.",
+      "Laissez refroidir avant de déguster."
+    ]
+  },{
+    "id": 15,
+    "title": "Pain Perdu",
+    "url": "/assets/painperdue.jpg",
+    "preparation_time": "20 minutes",
+    "tags": ["Petit-déjeuner"],
+    "ingredients": [
+      { "name": "tranches de pain", "quantity": 4, "unit": "", "img": "/assets/pain.png" },
+      { "name": "œufs", "quantity": 2, "unit": "", "img": "/assets/oeuf.png" },
+      { "name": "lait", "quantity": 100, "unit": "ml", "img": "/assets/lait.png"},
+      { "name": "sucre", "quantity": 1, "unit": "cuillère à soupe", "img": "/assets/sucre.png" },
+      { "name": "vanille", "quantity": 1, "unit": "cuillère à café", "img": "/assets/vanille.png" },
+      { "name": "cannelle", "quantity": 1, "unit": "pincée", "img": "/assets/canelle.png" },
+      { "name": "beurre", "quantity": 20, "unit": "g", "img": "/assets/beurre.png" },
+      { "name": "banane", "quantity": 2, "unit": "", "img": "/assets/banane.png" }
+    ],
+    "steps": [
+      "Dans un bol, fouettez les œufs, le lait, le sucre, la vanille et la cannelle.",
+      "Trempez les tranches de pain dans ce mélange jusqu'à ce qu'elles soient bien imbibées.",
+      "Faites fondre le beurre dans une poêle à feu moyen et faites dorer les tranches de pain des deux côtés, environ 2 à 3 minutes par côté.",
+      "Servez chaud avec des rondelles de banane et du Nutella en garniture pour un petit-déjeuner gourmand."
+    ]
+  }
+
+]

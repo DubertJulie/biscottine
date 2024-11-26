@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* A suprimer  */
+body {
+    /* la couleur arriere plan  */
+    background-color: var(--background-color);
+}
+
+
+/* sa c'est l'encadrement  */
+.encadrementTete {
+    background-color: var(--text-color-alt);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em auto;
+    padding: 0.5em 0;
+    width: 80%;
+    border-radius: 0.8em;
+}
+
+/* L'image de la mascotte  */
+.mascotteHeader {
+    margin-left: 2em;
+    height: 3.7em;
+    width: 2.4em;
+    margin-top: 0.5em;
+    margin-right: 1.8em;
+}
+
+.logoHeader {
+    height: 3.1em;
+    width: 12em;
+    margin-top: 0.6em;
+}
+
+
+/* Placement des ol  */
+.headerlist {
+    display: flex;
+    justify-content: center;
+}
+
+.headerlist a {
+    text-decoration: none;
+    padding: 1em;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: 1em;
+}
