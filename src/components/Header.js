@@ -3,6 +3,15 @@ import LogoHeader from '../assets/logo.png';
 import mascotteHeader from '../assets/mascotte.png';
 import { Link } from "react-router-dom";
 
+import './header.css';
+
+// Ajout logo et Mascotte 
+import LogoHeader from '../assets/logo.png';
+import mascotteHeader from '../assets/mascotte.png';
+
+
+
+
 
 function Header() {
 

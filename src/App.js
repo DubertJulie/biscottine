@@ -1,23 +1,3 @@
-
-// import './App.css';
-// import RecipeResults from './components/RecipeResults.js';
-// import RecipeDetails from './components/RecipeDetails.js';
-// import SavedRecipes from './components/SavedRecipes.js';
-// import IngredientInput from './components/IngredientInput.js';
-// import Header from './components/Header.js';
-
-// function App() {
-//   return (
-//     <>
-//       <RecipeDetails />
-//       <RecipeResults />
-//       <SavedRecipes />
-//     </>
-//   );
-// }
-
-// export default App;
-
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
@@ -37,4 +17,14 @@ export default function App() {
     </Router>
   );
 }
+
+    <div>
+      <Header />
+      <IngredientInput />
+    </div>
+  );
+}
+
+export default App;
+
 
